@@ -1,4 +1,4 @@
-<%@page import="java.*"%>
+﻿<%@page import="java.*"%>
 <%@page import="java.sql.*"%>
 <%@page import="javax.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -9,12 +9,7 @@
 <head>
 <meta charset="UTF-8">
 <title>注册成功页面</title>
-<style>
-        body{
-            background: url(img/img02.jpg);
-            
-             }
-</style>
+
 </head>
 <body>
 	<%

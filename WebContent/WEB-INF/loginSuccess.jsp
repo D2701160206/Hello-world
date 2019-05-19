@@ -1,4 +1,4 @@
-<%@page import="java.sql.*"%>
+﻿<%@page import="java.sql.*"%>
 <%@page import="javax.sql.*"%>
 <%@page import="javax.naming.*"%>
 <%request.setCharacterEncoding("utf-8"); %>
@@ -9,11 +9,6 @@
 <head>
 <meta charset="UTF-8">
 <title>判断登录</title>
-<style>
-        body{
-            background: url(img/03.jpg);
-             }
-</style>
 </head>
 <body>
 	<%
@@ -60,13 +55,7 @@
 	%>
 	
 	
-<%
-/* String name=request.getParameter("name"); */
-session.setAttribute("name", name);
-/* String aihao=request.getParameter("password"); */
-session.setAttribute("password", password);
 
-%> 
 
  
 
