@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta charset="UTF-8">
-<title>修改信息</title>
+<title>registered</title>
 <style>
         body{
             background: url(img/img02.jpg);
@@ -13,9 +13,9 @@
 </style>
 </head>
 <body align="center">
-<p align="right"><a href="success.jsp">主界面</a></p>
-	<h2 align="center">信息修改</h2>
-	<form action="updateSucceed.jsp" method="post">
+<p align="right"><a href="index.jsp">登录</a></p>
+	<h2 align="center">新用户注册</h2>
+	<form action="registeredSucceed.jsp" method="post">
 		<table align="center">
 			<tr align="right">
 		 		<td>请输入用户名:</td>
@@ -42,11 +42,12 @@
 				<td><input type="text" name=number></td>
 			</tr>
 			<tr>
-			<td colspan="2" align="center"><input type="submit" name=update value="确定" >
-			<input type="reset" name=refill value="重填" ></td>
-			
+				<td colspan="2" align="center">
+					<input type="submit" name=register value="注册" >
+					<input type="reset" name=refill value="重填" >
+				</td>
 			</tr>
-		</table>
-			
-		</form>	
+		</table>		
+		</form>
+	
 </body>
