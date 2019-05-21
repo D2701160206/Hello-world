@@ -28,10 +28,7 @@
         .blue{
         color:blue;
         }
-        h1{
-         /* align:center; */
-        /*  margin-top: 10px;  */
-        }
+       
         .box{
         height:300px;
       
@@ -70,13 +67,6 @@ out.print("欢迎"+name+"登陆") ;
 </div>
 
 
- <%-- <% 
-out.print("点击<a href=\"update.jsp\">修改信息</a>"); 
-out.print("点击<a href=\"deledate.jsp\">删除</a>"); 
-out.print("点击返回<a href=\"index.jsp\">登录界面</a>");
-out.print("点击<a href=\"showUser.jsp\">查看信息</a>");
- %>  --%>
- 
 
 </body>
 </html>

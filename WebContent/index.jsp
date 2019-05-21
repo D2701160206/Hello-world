@@ -34,10 +34,8 @@
 		<tr align="center">
 			<td colspan="2"><input type="submit" value="登录" name="login">
 			<input type="reset" value="重置" name="reset"></td>
-			<!-- <td><input type="reset" value="重置" name="reset"></td> -->
 		</tr>
 	</table>
-	<!-- <p align="center"><a href="registered.jsp" >注册用户</a></p> -->
 	</form>
 	
 </body>

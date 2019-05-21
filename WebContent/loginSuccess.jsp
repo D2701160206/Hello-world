@@ -61,11 +61,8 @@
 	
 	
 <%
-/* String name=request.getParameter("name"); */
 session.setAttribute("name", name);
-/* String aihao=request.getParameter("password"); */
 session.setAttribute("password", password);
-
 %> 
 
  

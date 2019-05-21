@@ -18,24 +18,17 @@
 </head>
 <body>
 
-
-
 <%
 String name1=new String(session.getAttribute("name").toString().getBytes("ISO-8859-1"),"UTF-8");
 String password1=new String(session.getAttribute("password").toString().getBytes("ISO-8859-1"),"UTF-8");
-
-
 %>
-
  
 	<%
 		
 		Statement stmt =null;
 		ResultSet rs = null;
 		Connection con = null;
-		
-	
-		
+			
 		String name=request.getParameter("name").replaceAll(" ","");
 		String password=request.getParameter("password").replaceAll(" ","");
 		String refill=request.getParameter("refill").replaceAll(" ","");

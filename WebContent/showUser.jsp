@@ -13,12 +13,6 @@
             background: url(img/03.jpg);
             
              }
-      /*  p{
-       }
-       a{
-            text-decoration:none;
-            color: red;
-        } */
 </style>
 </head>
 <body>

@@ -23,8 +23,6 @@
 		ResultSet rs = null;
 		Connection con = null;
 		
-	
-		
 		String name=request.getParameter("name").replaceAll(" ","");
 		String password=request.getParameter("password").replaceAll(" ","");
 		String refill=request.getParameter("refill").replaceAll(" ","");
