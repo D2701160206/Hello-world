@@ -25,7 +25,7 @@
 	<table align="center" border='2px'>
 		<tr align="center">
 			<td>用户名:</td>
-			<td><input type="text" name="name" placeholder="输入用户名"></td>
+			<td><input type="text" name="name" placeholder="输入用户名" required=""></td>
 		</tr>
 		<tr align="center">
 			<td>密&nbsp;&nbsp;码:</td>

@@ -19,7 +19,7 @@
 		<table align="center">
 			<tr align="right">
 		 		<td>请输入用户名:</td>
-				<td><input type="text" name=name ></td>
+				<td><input type="text" name=name required=""></td>
 			</tr>
 			<tr align="right">
 				<td>请输入密码:</td>

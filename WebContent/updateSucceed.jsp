@@ -52,7 +52,7 @@ String password1=new String(session.getAttribute("password").toString().getBytes
 							<br> 如果没有跳转，请点击
 							<a href="index.jsp">这里</a>！！！
 							<span style="font-size: 24px;"><meta http-equiv="refresh"
-									content="3;URL=index.jsp"> </span>
+									content="0;URL=index.jsp"> </span>
 									<%
 					}
 				 else

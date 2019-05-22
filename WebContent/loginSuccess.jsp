@@ -38,7 +38,7 @@
 					<br> 如果没有跳转，请点击
 					<a href="success.jsp">这里</a>！！！
 					<span style="font-size: 24px;"><meta http-equiv="refresh"
-							content="3;URL=success.jsp"> </span>
+							content="0;URL=success.jsp"> </span>
 					<% 
 					
 				}else{

@@ -48,7 +48,7 @@
 	<br> 如果没有跳转，请点击
 	<a href="index.jsp">这里</a>！！！
 	<span style="font-size: 24px;"><meta http-equiv="refresh"
-			content="3;URL=index.jsp"> </span>
+			content="0;URL=index.jsp"> </span>
 	<% 
 				}else{
 				out.print("密码输入不一致!!!<br>"+"重新<a href=\"registered.jsp\">注册</a>");
