@@ -43,7 +43,7 @@
 		<table border="2px">
 			<tr bgcolor='skyblue'>
 				<td>用户名</td>
-				<td>密码</td>
+				
 				<td>性别</td>
 				<td>年龄</td>
 				<td>联 系 电 话</td>
@@ -54,7 +54,7 @@
             %>
 			<tr>
 				<td><%=rs.getString("name") %></td>
-				<td><%=rs.getString("password") %></td>
+				
 				<td><%=rs.getString("sex")%></td>
 				<td><%=rs.getString("age")%></td>
 				<td><%=rs.getString("number")%></td>

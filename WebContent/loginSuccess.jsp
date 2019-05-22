@@ -46,6 +46,8 @@
 				}
 			}else{
 				out.print("<font color=red>"+name+"</font>用户不存在！！！<br>"+"请点击<a href=\"registered.jsp\">注册</a>");
+
+				out.print("请点击<a href=\"index.jsp\">重新登录</a>");
 			}
 		}catch(Exception e){
 			out.print(e);
