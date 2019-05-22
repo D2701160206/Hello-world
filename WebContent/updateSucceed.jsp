@@ -47,12 +47,10 @@ String password1=new String(session.getAttribute("password").toString().getBytes
 				rs=stmt.executeQuery("select * from user_01 where name='"+name+"'");
 				 if(rs.next()){						
 						%> 
-						修改成功！！！
-							<br> 三秒钟后自动转到登录页面！！！
-							<br> 如果没有跳转，请点击
-							<a href="index.jsp">这里</a>！！！
-							<span style="font-size: 24px;"><meta http-equiv="refresh"
-									content="0;URL=index.jsp"> </span>
+								 <script type="text/javascript">  
+     window.location="index.jsp";  
+     </script>  
+				
 									<%
 					}
 				 else

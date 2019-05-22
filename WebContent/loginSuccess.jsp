@@ -33,12 +33,10 @@
 				rs=stmt.executeQuery("select * from user_01 where name='"+name+"' and password='"+password+"'");
 				if(rs.next()){
 					%>
-					登录成功！！！
-					<br> 三秒钟后自动转到主页面！！！
-					<br> 如果没有跳转，请点击
-					<a href="success.jsp">这里</a>！！！
-					<span style="font-size: 24px;"><meta http-equiv="refresh"
-							content="0;URL=success.jsp"> </span>
+							 <script type="text/javascript">  
+     			window.location="success.jsp";  
+     			</script>  
+				
 					<% 
 					
 				}else{
